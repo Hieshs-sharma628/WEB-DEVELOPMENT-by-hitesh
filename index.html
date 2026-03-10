@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Masterclass | Knowledge Hub</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">WEB<span class="gradient-text">HUB</span></div>
+            <ul class="nav-links">
+                <li><a href="#html-hub">HTML Hub</a></li>
+                <li><a href="#css-hub">CSS Hub</a></li>
+            </ul>
+        </div>
+        <!-- Roadmap Progress Tracker -->
+        <div class="roadmap-track">
+            <div class="roadmap-progress" id="roadmapProgress"></div>
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <h1 class="reveal">WebDev <br><span class="gradient-text">Categorized Library</span></h1>
+            <p class="reveal">The ultimate front-end reference. Split into HTML structure and CSS styling for maximum
+                clarity.</p>
+
+            <!-- Search Area -->
+            <div class="search-container reveal">
+                <div class="search-box">
+                    <input type="text" id="conceptSearch"
+                        placeholder="Search for tags (<html>) or properties (display)...">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor"
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99Ln.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             HTML HUB - The Structural Foundation
+             ========================================== -->
+        <div id="html-hub" class="primary-hub">
+            <div class="container tech-divider">
+                <div class="divider-line"></div>
+                <h2 class="tech-title">HTML Elements</h2>
+                <span>The skeleton of the web</span>
+            </div>
+
+            <section id="html-metadata" class="container">
+                <div class="badge badge-beginner">HTML: Metadata & Roots</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Document Roots</h3>
+                        <p class="item-description">The tags that define the very start of a webpage and hold its
+                            background information.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;html&gt;</span>
+                            <span class="tag-pill">&lt;head&gt;</span>
+                            <span class="tag-pill">&lt;title&gt;</span>
+                            <span class="tag-pill">&lt;meta&gt;</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>Body & Semantic</h3>
+                        <p class="item-description">Meaningful blocks like header, main, and footer that tell browsers
+                            what each section is for.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;body&gt;</span>
+                            <span class="tag-pill">&lt;header&gt;</span>
+                            <span class="tag-pill">&lt;main&gt;</span>
+                            <span class="tag-pill">&lt;footer&gt;</span>
+                            <span class="tag-pill">&lt;section&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="html-content" class="container">
+                <div class="badge badge-beginner">HTML: Text & Media</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Text Elements</h3>
+                        <p class="item-description">Building blocks for content, including headings for titles and
+                            anchors for links.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;h1-h6&gt;</span>
+                            <span class="tag-pill">&lt;p&gt;</span>
+                            <span class="tag-pill">&lt;a&gt;</span>
+                            <span class="tag-pill">&lt;span&gt;</span>
+                            <span class="tag-pill">&lt;ul&gt;</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>Media & Assets</h3>
+                        <p class="item-description">Inserting visual content like images, videos, and professional SVG
+                            graphics.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;img&gt;</span>
+                            <span class="tag-pill">&lt;video&gt;</span>
+                            <span class="tag-pill">&lt;svg&gt;</span>
+                            <span class="tag-pill">&lt;canvas&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="html-data" class="container">
+                <div class="badge badge-intermediate">HTML: Data & Forms</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Interactive Forms</h3>
+                        <p class="item-description">Customizable inputs and labels used to collect data directly from
+                            your users.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;form&gt;</span>
+                            <span class="tag-pill">&lt;input&gt;</span>
+                            <span class="tag-pill">&lt;button&gt;</span>
+                            <span class="tag-pill">&lt;select&gt;</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>Tabular Data</h3>
+                        <p class="item-description">The standard way to organize complex data into rows and columns for
+                            high readability.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">&lt;table&gt;</span>
+                            <span class="tag-pill">&lt;tr&gt;</span>
+                            <span class="tag-pill">&lt;td&gt;</span>
+                            <span class="tag-pill">&lt;progress&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ==========================================
+             CSS HUB - The Design Layer
+             ========================================== -->
+        <div id="css-hub" class="primary-hub">
+            <div class="container tech-divider">
+                <div class="divider-line"></div>
+                <h2 class="tech-title">CSS Properties</h2>
+                <span>The skin and movements of the web</span>
+            </div>
+
+            <section id="css-style" class="container">
+                <div class="badge badge-beginner">CSS: Visual Styling</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Text & Color</h3>
+                        <p class="item-description">The properties that control how text looks, from its vibrant color
+                            to its unique typeface.</p>
+                        <div class="property-grid">
+                            <div class="property-item-box">
+                                <span class="property-label">color</span>
+                                <span class="property-desc">Text color</span>
+                            </div>
+                            <div class="property-item-box">
+                                <span class="property-label">font-family</span>
+                                <span class="property-desc">Font style</span>
+                            </div>
+                            <div class="property-item-box">
+                                <span class="property-label">text-shadow</span>
+                                <span class="property-desc">3D depth</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>The Box Model</h3>
+                        <p class="item-description">Managing the physical presence of elements, including their borders
+                            and the empty space around them.</p>
+                        <div class="property-grid">
+                            <div class="property-item-box">
+                                <span class="property-label">margin</span>
+                                <span class="property-desc">Outer space</span>
+                            </div>
+                            <div class="property-item-box">
+                                <span class="property-label">padding</span>
+                                <span class="property-desc">Inner space</span>
+                            </div>
+                            <div class="property-item-box">
+                                <span class="property-label">border</span>
+                                <span class="property-desc">Element edge</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="css-layout" class="container">
+                <div class="badge badge-advanced">CSS: Modern Layouts</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Structural Systems</h3>
+                        <p class="item-description">Next-generation layout engines like Flexbox and Grid for responsive
+                            design.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">display: flex</span>
+                            <span class="tag-pill">display: grid</span>
+                            <span class="tag-pill">gap</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>Dynamic Effects</h3>
+                        <p class="item-description">Properties that add life to your site, from hover responses to
+                            custom mouse cursors.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">hover</span>
+                            <span class="tag-pill">focus</span>
+                            <span class="tag-pill">cursor</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="css-future" class="container">
+                <div class="badge badge-future">CSS: n26 Standards</div>
+                <div class="concept-grid">
+                    <div class="glass-card reveal">
+                        <h3>Logic & Motion</h3>
+                        <p class="item-description">Cutting-edge features like built-in logic and scroll-percentage
+                            based animations.</p>
+                        <div class="tag-cloud">
+                            <span class="tag-pill">if()</span>
+                            <span class="tag-pill">scroll()</span>
+                            <span class="tag-pill">anchor-name</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Interactive Documentation Panel -->
+    <div id="docsPanel" class="docs-panel">
+        <div class="panel-header">
+            <h2 id="panelTitle">Concept Details</h2>
+            <button id="closePanel" class="close-btn">&times;</button>
+        </div>
+        <div class="panel-content">
+            <div class="section-label">Definition</div>
+            <p id="panelDesc">Select a tag or property to see details.</p>
+
+            <div class="code-split">
+                <div class="code-section">
+                    <div class="section-label">HTML Source</div>
+                    <div class="code-box doc-code" id="panelHtml">// HTML will appear here</div>
+                </div>
+                <div class="code-section">
+                    <div class="section-label">CSS Source</div>
+                    <div class="code-box doc-code" id="panelCss">// CSS will appear here</div>
+                </div>
+            </div>
+
+            <div class="section-label">Live Output</div>
+            <div class="output-preview" id="panelOutput">
+                <div class="output-preview-header-dots">
+                    <span class="dot-red"></span>
+                    <span class="dot-yellow"></span>
+                    <span class="dot-green"></span>
+                </div>
+                <div class="output-preview-address">localhost:3000/preview</div>
+                <div class="output-content" id="panelOutputContent">
+                    <!-- Visual output will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
