@@ -5,22 +5,58 @@
         <title>form</title>
         <link rel="stylesheet" href="style.css
         ">
+        <style>
+            *{
+                text-align: center;
+            }
+            body{
+                background-color: bisque;
+            }
+            input{
+                margin:10px;
+            }
+        </style>
     </head>
     <body></body>
-    <center>
-    <h1>STUDENT INFO FORM</h1><br><hr weidth="2px">
-    <form action="external.html">
-       Name <input type="text" placeholder="Enter you name"><br>
-       Subjects: <input type="checkbox">Maths
-       <br><input type="checkbox">Science
-       <br><input type="checkbox">English<br>
-       <input type="checkbox">Hindi<br>
-       <input type="checkbox">French<br>
-       Gender: <input type="radio" name="gender">M<br>
-       <input type="radio" name="gender">F<BR>
-        Select class: <select><option>bca</option>
-        <option>b tech</option>
-        <option>bsc</option></select><br>
+    <h1>STUDENT BIO FORM</h1><br><hr weidth="2px">
+    <form action="first.html">
+       <label>Name </label>
+       <input type="text" name="username" value="Hitesh" placeholder="Enter you name" readonly required>
+       <br>
+       <label>Subjects:</label><br> 
+       <input type="checkbox" name="options" value="maths">Maths<br>
+       <input type="checkbox"  name="options" value="science">Science<br>
+       <input type="checkbox"  name="options" value="english">English<br>
+       <input type="checkbox"  name="options" value="hindi">Hindi<br>
+       <input type="checkbox"  name="options" value="french">French<br>
+       <label>Gender: </label>
+       <input type="radio" name="gender" value="M">M<br>
+       <input type="radio" name="gender" value="F">F<br>
+       <lable>Class:</lable>
+        <select>
+            <option value="bca">bca</option>
+            <option value="b-tech">b tech</option>
+            <option value="bsc">bsc</option>
+        </select><br>
+        <label>Email</label>
+        <input type="email" name="email" disabled><br>
+        <label>Passward</label>
+        <input type="password" name="password" required><br>
+        <label>Contact</label>
+        <input type="number" name="number" required><br>
+        <label>Date</label>
+        <input type="date" name="date"><br>
+        <label>Datetime</label>
+        <input type="datetime-local" name="datatime-local"><br>
+        <label>Month</label>
+        <input type="month" name="month"><br>
+        <label>Address</label>
+        <textarea name="adderss" row="10" column="20"></textarea><br>
+        <label>Add file</label>
+        <input type="file" name="files" accept="image/* "><br>
+        <input type="checkbox" checked>Terms & Conditions <br>
+        <label>Rating to us</label>
+        <input type="range" min="1" max="5"><br>
         <input type="reset">
         <input type="submit">
         <button style="border-radius:30px;"">button</button>

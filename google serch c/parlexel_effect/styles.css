@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:Blue;
+    background-size:200px 200px;
+}
+img{
+    margin-left: 100px;
+    padding-bottom: 100px;
+    background-color: transparent;
+    height: 200px;
+    display: block;
+}
+#fix{
+    position:fixed;
+}

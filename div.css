@@ -1,0 +1,19 @@
+.c1{
+    height:100px;
+    background-color: blueviolet;
+    width: 400px;
+    float :left;
+}
+.c2{
+    height:100px;
+    background-color: saddlebrown;
+    width: 400px;
+    float:right;
+}
+.c3{
+    height:100px;
+    background-color: rgb(58, 85, 58);
+    width: 400px;
+    float:right;
+    margin-right:70px;
+}
