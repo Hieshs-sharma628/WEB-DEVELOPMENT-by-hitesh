@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+div{
+    height:700px;
+}
+.doremone1{
+    background-image: url(bQmQs.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+.doremone2{
+    background-image: url(hJpbG.jpg);
+    background-attachment: fixed;
+}
+.doremone3{
+    background-image: url(Jxigz.jpg);
+    background-attachment: fixed;
+}
+.doremone4{
+    background-image: url(KDO26.jpg);
+    background-attachment: fixed;
+}
+.doremone5{
+    background-image: url(lI9dV.jpg);
+    background-attachment: fixed;
+}
