@@ -1,13 +1,20 @@
 body{
-    background-color: lightblue;
+    background-color: rgba(0, 165, 221, 0.947);
 }
-div{
+.divheight{
     height:700px;
+}
+.text_block{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
 }
 .doremone1{
     background-image: url(bQmQs.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .doremone2{
     background-image: url(hJpbG.jpg);
