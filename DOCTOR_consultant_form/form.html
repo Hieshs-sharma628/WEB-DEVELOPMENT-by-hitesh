@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
     <style>
-        body{
-            background-color:skyblue;
+        body {
+            background-color: skyblue;
         }
-        .image{
-           float:left;
-           height :700px;
-           width: 50%;
+
+        .image {
+            float: left;
+            height: 700px;
+            width: 50%;
         }
-        .form{
-            float:right;
-            height :700px;
+
+        .form {
+            float: right;
+            height: 700px;
             width: 50%;
         }
     </style>
 </head>
+
 <body>
     <div class="image">
         <img src="doctor-form-task.webp" alt="Doctor Image" style="width:100%;height:100%">
     </div>
-<div class="form">
-    <h1 style="text-align:center;">Doctor Appointment Form</h1>
-    <hr width="100%"  color="red" size="3">
-    <form>
-        <lable>Appointment Date</lable> <input type="date" name="date"></lable><br><br>
-        <lable>Appointment Time</lable> <input type="time" name="time"></lable><br><br>
-        <lable>Name<input type="text" placeholder="First" name="first name"><input type="text" placeholder="Last" name="last name"></lable><br><br>
-        <lable>Gender Male<input type="radio" name="gender">Female<input type="radio" name="gender"></lable><br><br>
-        <lable>Phone<input type="number"  placeholder="####" name="phone number"></lable><br><br>
-        <lable>Address<input type="text" placeholder="city" name="city name"><input type="text" placeholder="state" name="state name"></lable><br><br>
-        <lable>Your Query<textarea ></textarea></lable><br><br>
-        <lable>Appointment Type  Select which appontement type(s) you require<br>
+    <div class="form">
+        <h1 style="text-align:center;">Doctor Appointment Form</h1>
+        <hr width="100%" color="red" size="3">
+        <form>
+            <label>Appointment Date</label> <input type="date" name="date"><br><br>
+            <label>Appointment Time</label> <input type="time" name="time"><br><br>
+            <label>Name</label><input type="text" placeholder="First" name="first name"><input type="text"
+                placeholder="Last" name="last name"><br><br>
+            <label>Gender </label>Male<input type="radio" name="gender">Female<input type="radio" name="gender"><br><br>
+            <label>Phone</label><input type="number" placeholder="####" name="phone number"><br><br>
+            <label>Address</label><input type="text" placeholder="city" name="city name"><input type="text"
+                placeholder="state" name="state name"><br><br>
+            <label>Your Query</label><textarea></textarea><br><br>
+            <label>Appointment Type Select which appontement type(s) you require</label><br>
             <input type="checkbox" name="cervix">Curvix checkup<br>
             <input type="checkbox" name="Heart">heart checkup<br>
             <input type="checkbox" name="eye">Eye check-up<br>
-            <input type="checkbox" name="test">Hearing Test<br>
-        </lable><br><br>
-        <lable><button>Send</button></lable><br><br>
-        
-    </form>
+            <input type="checkbox" name="test">Hearing Test<br><br>
+            <label><button>Send</button></label><br><br>
+        </form>
 
-</div>
+    </div>
 </body>
+
 </html>

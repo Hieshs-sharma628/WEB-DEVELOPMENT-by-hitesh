@@ -1,4 +1,4 @@
-var foodname={
+var foodnaMe={
     veg:{
         r:"rice",
         c:"chese",
@@ -8,9 +8,9 @@ var foodname={
         c:"chicken"
     }
 }
-console.log(foodname)
-console.log(foodname.nonveg.e)
-foodname.nonveg.b="butterchicken"
-console.log(foodname)
-delete foodname.nonveg.e
-console.log(foodname)
+console.log(foodnaMe)
+console.log(foodnaMe.nonveg.e)
+foodnaMe.nonveg.b="butterchicken"
+console.log(foodnaMe)
+delete foodnaMe.nonveg.e
+console.log(foodnaMe)

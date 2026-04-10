@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Split Page</title>
+  <style>
+    /* ===== BODY STYLE ===== */
+    /* body tag ko style dena - poora page ka background, font etc. */
+    body {
+      margin: 0;              /* page ke around ka gap hatao (by default browser gap deta hai) */
+      font-family: Arial;     /* font change karo - Arial easy to read hai */
+    }
+
+    /* ===== CONTAINER ===== */
+    /* ye .container poora page wrap karta hai */
+    .container {
+      width: 100%;             /* poora width lo page ka */
+    }
+
+    /* ===== LEFT AND RIGHT BOXES ===== */
+    /* dono boxes ko side by side dikhane ke liye float use kiya */
+    .left, .right {
+      width: 50%;              /* har box aadhi screen le (50% + 50% = 100%) */
+      float: left;             /* float:left means boxes ek ke baad ek left se set honge */
+      text-align: center;      /* text aur image center mein aayega */
+      padding: 40px 0;         /* upar-neeche 40px space, left-right 0 */
+      border: 2px solid #333;  /* 2px ki dark grey border */
+      box-sizing: border-box;  /* border aur padding width ke andar count ho */
+    }
+    /* ===== IMAGE STYLE ===== */
+    /* saari images ko same size dena */
+    img {
+      width: 200px;            /* image ki width 200px fix */
+      height: auto;            /* height apne aap adjust hogi (ratio maintain) */
+      margin-top: 15px;        /* image ke upar 15px ka gap */
+    }
+
+    /* ===== HEADING STYLE ===== */
+    h2 {
+      margin: 0;               /* heading ke around ka default gap hatao */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>College Logo</h2>
+      <img src="images.png" alt="College Logo">
+    </div>
+    <div class="right">
+      <h2>University Logo</h2>
+      <img src="I.K. Gujral Punjab Technical University.png" alt="University Logo">
+    </div>
+  </div>
+</body>
+</html>
