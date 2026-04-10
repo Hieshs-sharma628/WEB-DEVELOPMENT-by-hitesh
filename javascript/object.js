@@ -1,11 +1,11 @@
 var student={
-Name: "Arman",
-semester: "IInd",
+NaMe: "ArMan",
+seMester: "IInd",
 course: "ВСА",
 rollno:101,
 }
 console.log(student)
-console.log(student.semester)
+console.log(student.seMester)
 delete student.rollno
 console.log(student)
 student.sesion=2026;
