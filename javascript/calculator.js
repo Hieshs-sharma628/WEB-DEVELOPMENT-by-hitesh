@@ -6,7 +6,7 @@ var subtraction=a-b;
 console.log(substraction)
 var Multiplication=a*b;
 console.log(Multiplication)
-var devision=a/b;
-console.log(devision)
+var division=a/b
+console.log(division)
 var reMainder=a%b;
 console.log(reMainder)
