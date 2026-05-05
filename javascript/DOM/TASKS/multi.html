@@ -59,34 +59,37 @@
     </div>
     <div id="div2">
         <button id="copy" value="1" onclick="copyinput1()">Copy</button>
-        <button id="copyindiv2" value="2" onclick="copyinput1()">CopyinDiv2</button>
-        <button id="cocateinput1todiv"  value="3" onclick="copyinput1()"></button>
-        <button id="bgimage"  value="4" onclick="copyinput1()"></button>
+        <button id="copyindiv2" value="2" onclick="copyindiv2()">CopyinDiv2</button>
+        <button id="cocateinput1todiv"  value="3" onclick="concatinate()">Concatinate</button>
+        <button id="bgimage"  value="4" onclick="bgcolor()">Bgcolor</button>
     </div>
     <div id="div3">
         <div id="div3_1">
-            <h1 id="output"></h1>
+            <h1 id="output"></h1><h1 id="output2"></h1>
         </div>
-        <div id="div3_2"></div>
+        <div id="div3_2">
+            <h1 id="div3_output"></h1>
+        </div>
     </div>
     <script>
         function copyinput1(){
             let string=text.value
-            switch(value){              
-                case 1:
                 text2.value=string;
-                break;
-                case 2:
-                output.innerHTML=string;
-                break;
-                case 3:
-                // output.innerHTML=string;
-                break;
-                case 4:
-                // output.innerHTML=string;
-                break;
-            }
-        
+        }
+        function copyindiv2(){
+            let string=text.value
+                output.innerHTML=string;     
+        }
+        function concatinate(){
+            let string=text.value
+                output2.innerHTML=string+string;     
+        }
+        function bgcolor(){
+            let string=text.value
+            div3_output.innerHTML=string;   
+            div3_2.style.backgroundImage="url('shiva-ai-image.webp')";
+             div3_2.style.backgroundSize="contain"
+
         }
     </script>
 </body>

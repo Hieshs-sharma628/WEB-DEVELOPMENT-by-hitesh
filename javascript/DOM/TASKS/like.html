@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <img src="shiva-ai-image.webp" ondblclick="like()" alt="Lord shiva" height="100px"><br>
+    <i class="bi bi-heart" onclick="like()" id="icon"></i> 
+    <span id="likecount" >10</span> Likes
+<script>
+    function like(){
+        icon.style.color="red";
+        icon.classList.remove("bi-heart")
+            icon.classList.add("bi-heart-fill")
+            likecount.innerHTML=Number(likecount.innerHTML)+1
+    }
+</script>
+</body>
+</html>
