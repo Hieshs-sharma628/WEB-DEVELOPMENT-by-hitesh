@@ -18,7 +18,7 @@
         function gstcalculator(){
             var num=Number(amount.value)
             gst_amount=num*18/100
-            gstamount.innerHTML="GST Amount ::"+ gst_amount
+            docunent.getElementById("gstamount").innerHTML="GST Amount ::"+ gst_amount
             output.innerHTML="Total Price ::"+ Number(gst_amount+num)
         }
     </script>
